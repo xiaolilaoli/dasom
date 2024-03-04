@@ -12,7 +12,10 @@ This article uses deep learning to detect pelvic floor dysfunction(POP) diseases
 
 The first work is data processing. Our pelvic floor dataset is imbalanced and has few samples. We processed the data using resampling and strong random data augmentation. This data augmentation method comes from AutoAugment, and we used their reinforcement learning approach to search for augmentation strategies suitable for the pelvic floor dataset. 
 
-The reason why this work is interesting is that it actually worked. Beyond our imagination, in fact, this is a very difficult-to-classify dataset. Before this data processing, the highest classification accuracy could only reach 70%-80%. And this data processing can improve the detection accuracy by 10-20%. I am sure there are some secrets behind this. But there is no way. I am about to graduate soon, so just leave this work to someone who is destined to explore it.
+## The reason why this work is interesting is that it actually worked. Beyond our imagination, in fact, this is a very difficult-to-classify dataset. Before this data processing, the highest classification accuracy could only reach 70%-80%. And this data processing can improve the detection accuracy by 10-20%. I am sure there are some secrets behind this. But there is no way. I am about to graduate soon, so just leave this work to someone who is destined to explore it.
+
+
+![](https://github.com/xiaolilaoli/dasom/blob/main/mask.png)
 
 The second work is to explore the masking method for the masked image modeling(MIM) task. In fact, this is a direction worth studying. In the MIM task, what is the best way to mask? Is random masking effective? Perhaps the answer can only be obtained through exploration using reinforcement learning on a large-scale dataset. Of course, require a lot of resources.
 
