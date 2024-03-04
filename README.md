@@ -1,10 +1,7 @@
 ## self-supervised Domain Adaptation with Significance-Oriented Masking (DASOM): A new solution for pelvic organ prolapse (POP) detection.
 
-<p align="center">
-  <img src="[https://user-images.githubusercontent.com/11435359/146857310-f258c86c-fde6-48e8-9cee-badd2b21bd2c.png](https://github.com/xiaolilaoli/dasom/blob/main/framework.png)" width="480">
-</p>
 
-
+![](https://github.com/xiaolilaoli/dasom/blob/main/framework.png)
 This is a PyTorch/GPU re-implementation of the paper "Self-Supervised Domain Adaptation with Significance-Oriented Masking for Pelvic Organ
 Prolapse Detection".
 
