@@ -5,14 +5,14 @@
 This is a PyTorch/GPU re-implementation of the paper "Self-Supervised Domain Adaptation with Significance-Oriented Masking for Pelvic Organ
 Prolapse Detection".
 
-Alright, you can't find this article online yet,  because it's still in its (very) long review process.:
+Alright, you can't find this article online yet,  because it's still in its (very) long review process.
 
 
-This article uses deep learning to detect pelvic floor dysfunction(POP) diseases. In this article, we have completed two works that we find very interesting.
+This article uses deep learning to detect pelvic floor dysfunction(POP) diseases. In this article, we have completed two works that we feel very interesting.
 
 The first work is data processing. Our pelvic floor dataset is imbalanced and has few samples. We processed the data using resampling and strong random data augmentation. This data augmentation method comes from AutoAugment, and we used their reinforcement learning approach to search for augmentation strategies suitable for the pelvic floor dataset. 
 
-## The reason why this work is interesting is that it actually worked. Beyond our imagination, in fact, this is a very difficult-to-classify dataset. Before this data processing, the highest classification accuracy could only reach 70%-80%. And this data processing can improve the detection accuracy by 10-20%. I am sure there are some secrets behind this. But there is no way. I am about to graduate soon, so just leave this work to someone who is destined to explore it.
+## The reason why this work is interesting is that it actually worked, which beyonds our imagination. This is even more shocking than the ineffectiveness of this method. In fact, our dataset is a very difficult-to-classify dataset. Before this data processing, the highest classification accuracy could only reach 70%-80%. And data processing can improve the detection accuracy by 10-20%. I am sure there are some secrets behind this. But things do not always go as one wishes. I am about to graduate soon, so just leave this work to someone who is destined to explore it.
 
 
 ![](https://github.com/xiaolilaoli/dasom/blob/main/mask.png)
