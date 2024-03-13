@@ -2,8 +2,7 @@
 
 
 ![](https://github.com/xiaolilaoli/dasom/blob/main/framework.png)
-This is a PyTorch/GPU re-implementation of the paper "Self-Supervised Domain Adaptation with Significance-Oriented Masking for Pelvic Organ
-Prolapse Detection".
+This is a PyTorch/GPU re-implementation of the paper "keep secret at present".
 
 Alright, you can't find this article online yet,  because it's still in its (very) long review process.
 
